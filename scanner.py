@@ -17,7 +17,9 @@ def get_key(event):
 
 def cheese(event):
     print("Cheese")
-    
+	
+cheese()
+
 root = tk.Tk()
 root.geometry('100x20')
 
