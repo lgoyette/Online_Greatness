@@ -4,6 +4,7 @@ numProduct = 1
 for i in input1:
     numProduct = numProduct * int(i)
 print (numProduct)
+print("Yay! You multiplied numbers!")
 
 """def multiply(x, y, *varNum) :
     numProduct = 1
