@@ -11,6 +11,7 @@ def main():
   for letter in name :
    print ("     ",letter)
   print  ("Hello!  And Matt is a cheab.")
+  print (("Say my name, " * 3) + "yeah.")
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
