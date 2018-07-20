@@ -9,10 +9,11 @@ def main():
   else:
     name = 'World'
   for letter in name :
-   print ("     ",letter)
+    print ("     ",letter)
   print  ("Hello!  And Matt is a cheab.")
   print (("Say my name, " * 3) + "yeah.")
-
+  Fav = input("Enter your favorite food: ")
+  print (Fav + " is your favorite food.  \n You love " + Fav + " so much, it makes you wanna die. It's " + Fav + "alicous!")
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
   main()
